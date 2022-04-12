@@ -1,0 +1,38 @@
+.ui95-toolbar-stacked {
+  border: var(--px) solid transparent;
+  background: transparent;
+  display: block;
+  padding: 0;
+  width: 52px;
+  height: 52px;
+}
+.ui95-toolbar-stacked--text {
+  width: auto;
+  margin-right: 5px;
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  padding: 0 4px;
+}
+
+button.ui95-toolbar-stacked:hover,
+button.ui95-toolbar-stacked.hover {
+  border-color: var(--white) var(--grayDark) var(--grayDark) var(--white);
+}
+
+button.ui95-toolbar-stacked:active,
+button.ui95-toolbar-stacked.active {
+  border-color: var(--grayDark) var(--white) var(--white) var(--grayDark);
+}
+
+button.ui95-toolbar-stacked .ui95-icon {
+  padding: 1px 2px;
+  margin: 0 2px;
+  filter: grayscale(100%);
+}
+button.ui95-toolbar-stacked:hover .ui95-icon,
+button.ui95-toolbar-stacked:hover .ui95-icon,
+button.ui95-toolbar-stacked:focus .ui95-icon,
+button.ui95-toolbar-stacked:focus .ui95-icon {
+  filter: none;
+}
